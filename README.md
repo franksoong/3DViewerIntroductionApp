@@ -7,10 +7,10 @@
 ![quick demo](./snapshots/introduction.mp4)
 
 - snapshots
-![intro1](./snapshots/intro1.png)
-![intro2](./snapshots/intro2.png)
-![intro3](./snapshots/intro3.png)
-![intro4](./snapshots/intro4.png)
+![image](./snapshots/intro1.png)
+![image](./snapshots/intro2.png)
+![image](./snapshots/intro3.png)
+![image](./snapshots/intro4.png)
 ![open a model in shattered JT files](./snapshots/open%20a%20model%20in%20shattered%20JT%20files.mp4)
 
 ### Trouble shootings
