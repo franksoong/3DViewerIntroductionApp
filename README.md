@@ -4,9 +4,11 @@
 
 ### Demo
 - quick demo
-<video width="320" height="240" controls>
+
+https://github.com/franksoong/3DViewerIntroductionApp/assets/1563537/b54d3a02-4fe9-456f-afb1-d6af29dd46b6
+<!-- <video width="320" height="240" controls>
   <source src="./snapshots/introduction.mp4" type="video/mp4">
-</video>
+</video> -->
 
 - snapshots
 ![image](./snapshots/intro1.png)
