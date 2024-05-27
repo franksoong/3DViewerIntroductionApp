@@ -1,0 +1,46 @@
+#
+# The following was added while migrating this app from SVN to Git
+#
+/**/node_modules/
+!/javascriptsource/**/node_modules/
+/*.launch
+/.classpath
+/.mendix-cache/
+/.project
+/deployment/
+/javasource/*/proxies/
+/javasource/system/
+/modeler-merge-marker
+/nativemobile/builds
+/packages
+/project-settings.user.json
+/releases
+*.mpr.lock
+*.mpr.bak
+
+# /
+/modeler-merge-marker
+/.mendix-cache
+/.metadata
+/.settings
+/.sonarlint
+/theme-cache
+/3DHub.mpr.lock
+/3DHub.mpr.bak
+/*.launch
+/.project
+/.classpath
+/deployment
+/project-settings.user.json
+/tmp
+/releases
+
+
+# !/widgets/com.mendix.viewer3d.web.VisualReporting.mpk
+# !/widgets/com.mendix.viewer3d.web.UrlImageViewer.mpk
+/widgets/com.mendix.viewer3d.web.*
+/widgets/package.xml
+/tmp/
+/nativemobile/builds/
+/packages/
+/releases/

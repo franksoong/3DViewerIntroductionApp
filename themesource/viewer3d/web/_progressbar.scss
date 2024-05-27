@@ -1,0 +1,54 @@
+// progressBar start
+.aw-layout-progressBarContainer {
+    position: relative;
+    height: 1px;
+    // margin: -20px;
+}
+
+.aw-layout-progressBar {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 0.25rem;
+    margin: 0 0 0.25rem 0;
+    border-radius: 0.3125rem;
+    position: absolute;
+    overflow: hidden;
+}
+
+.aw-layout-progressBarCylon {
+    z-index: 99999;
+    height: 100%;
+    width: 10%;
+    border-radius: 0.3125rem;
+    position: relative;
+    animation: loading 2s cubic-bezier(0.1, 0.85, 0.9, 0.15) infinite, loading-opacity 2s ease-in-out infinite alternate;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #2387aa 0px, #2387aa 0px);
+    content: ' ';
+}
+
+
+@keyframes loading-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes loading {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+// end

@@ -1,0 +1,85 @@
+
+
+// https://juejin.cn/post/7219220646164807717
+/** markup
+
+<div>
+    <header>头部</header>
+    <div class="top-placeholder"></div>
+    <main>内容</main>
+    <div class="bottom-placeholder"></div>
+    <footer>底部</footer>
+</div>
+
+*/
+
+
+.my-panel-wrapper{
+    overflow: hidden;
+    // height: 100vh; 
+    display: flex;
+    flex-direction: column;
+
+    .my-panel-header{
+        background-color: #005f87;
+        color: #fff;
+        fill: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 0.3333333333rem 0 1.3333333333rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+
+
+        .panel-caption{
+            font-size: 1.44rem;
+            font-weight: 700;
+            font-style: normal;
+            font-stretch: normal;
+            letter-spacing: normal;
+            text-align: left;
+            box-sizing: border-box;                
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        } 
+
+        .panel-action{
+            padding-right: 0.6666666667rem;
+            display: inline-flex;
+            float: right;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }  
+
+    }
+    .my-panel-body{
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+
+        ::before{
+            margin-top: 48px;
+        }
+    }
+
+    .my-panel-footer{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        height: 48px;
+        line-height: 48px;
+
+        &::before{
+            margin-top: 48px;
+        }
+    }
+}
